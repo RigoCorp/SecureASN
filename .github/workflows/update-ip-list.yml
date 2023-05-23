@@ -14,10 +14,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
-      with:
-        submodules: true
     - name: Build IP list
-      run: bash build-ip-list.sh
+      run: python3 build-ip-list.py
     - name: Commit result
       run: |
         set -e
