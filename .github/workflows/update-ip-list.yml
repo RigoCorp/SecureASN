@@ -1,0 +1,33 @@
+
+name: Update IP list
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Run daily at 3am
+    - cron: '0 3 * * *'
+
+jobs:
+  update-ip-list:
+    name: Update IP list
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        submodules: true
+    - name: Build IP list
+      run: bash build-ip-list.sh
+    - name: Commit result
+      run: |
+        set -e
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        # Commit only if there has been changes
+        if [[ -n $(git status --porcelain ipv4-whitelist.txt ipv6-whitelist.txt) ]]; then
+            git add ipv4-whitelist.txt ipv6-whitelist.txt
+            git commit -m "Autoupdate IP lists"
+            git push
+        else
+            echo "No changes made"
+        fi
