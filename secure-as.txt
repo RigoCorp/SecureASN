@@ -1,0 +1,14 @@
+name;                   company
+AvatelTelecom;          AVATEL TELECOM, SA
+Digi Spain Telecom;     DIGI SPAIN TELECOM S.L.U.
+Euskaltel/Virgin Telco; Euskaltel S.A.
+FibraValencia;          RUIZ & COSTA INVERSIONES SL
+Masmovil/Yoigo;         XTRA TELECOM S.A.
+Microsoft;              Microsoft Corporation
+Orange Spain;           Orange Espagne SA
+RedIRIS;                Entidad Publica Empresarial Red.es
+Telefonica Spain;       TELEFONICA DE ESPANA S.A.U.
+Vodafone Ono;           VODAFONE ONO, S.A.
+Vodafone Spain;         VODAFONE ESPANA S.A.U.
+ZScaler;                ZSCALER, INC.
+ZScaler EMEA;           Zscaler Switzerland GmbH
