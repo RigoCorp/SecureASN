@@ -2,6 +2,9 @@
 name: Update IP list
 
 on:
+  push:
+    paths:
+      - secure-as.txt
   workflow_dispatch:
   schedule:
     # Run daily at 3am
