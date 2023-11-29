@@ -12,3 +12,5 @@ Vodafone Ono;           VODAFONE ONO, S.A.
 Vodafone Spain;         VODAFONE ESPANA S.A.U.
 ZScaler;                ZSCALER, INC.
 ZScaler EMEA;           Zscaler Switzerland GmbH
+Claro Argentina;        AMX Argentina S.A.
+Metrotel;               CPS
