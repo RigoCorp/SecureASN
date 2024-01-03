@@ -14,3 +14,5 @@ ZScaler;                ZSCALER, INC.
 ZScaler EMEA;           Zscaler Switzerland GmbH
 Claro Argentina;        AMX Argentina S.A.
 Metrotel;               CPS
+České Radiokomunikace;  RADIOKOMUNIKACE a.s.
+Trionet;                TRIOPTIMUM s.r.o.
