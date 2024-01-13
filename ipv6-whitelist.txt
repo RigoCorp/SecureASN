@@ -37,6 +37,9 @@
 # ASN 48020
 # (none)
 
+# ASN 48146
+# (none)
+
 # ASN 48990
 # (none)
 
@@ -218,9 +221,6 @@
 # ASN 42130
 2a13:b2c0::/32
 2a13:b2c1:1::/48
-
-# ASN 48146
-# (none)
 
 #
 # Masmovil/Yoigo
