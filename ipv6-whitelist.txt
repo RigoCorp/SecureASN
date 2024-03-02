@@ -219,7 +219,8 @@
 # FibraValencia
 #
 # ASN 42130
-# (none)
+2a13:b2c0::/32
+2a13:b2c1:1::/48
 
 #
 # Masmovil/Yoigo
