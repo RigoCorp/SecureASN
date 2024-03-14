@@ -206,9 +206,6 @@
 #
 # Digi Spain Telecom
 #
-# ASN 57269
-2a0c:5a80::/29
-
 #
 # Euskaltel/Virgin Telco
 #
